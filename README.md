@@ -15,3 +15,4 @@ bin/analyze \
 bin/analyze \
     --exclude_analyzers=git,gitDetailed \
     analyze /path/to/source
+    bin/analyze serve
