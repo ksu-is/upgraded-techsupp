@@ -6,3 +6,4 @@ git clone https://github.com/Qafoo/QualityAnalyzer.git
 cd QualityAnalyzer
 composer install
 bin/analyze analyze src/php/
+bin/analyze list:analyzers
