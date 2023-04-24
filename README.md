@@ -5,3 +5,4 @@ The objective of this project is to be used for technical concerns and lay a fou
 git clone https://github.com/Qafoo/QualityAnalyzer.git
 cd QualityAnalyzer
 composer install
+bin/analyze analyze src/php/
