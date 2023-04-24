@@ -7,3 +7,6 @@ cd QualityAnalyzer
 composer install
 bin/analyze analyze src/php/
 bin/analyze list:analyzers
+bin/analyze \
+    --exclude_analyzers=git,gitDetailed \
+    analyze /path/to/source
